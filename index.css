@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    text-align: center;
+    line-height: 25px;
+}
+
+.header h1{
+    text-transform: uppercase;
+}
+
+a{
+    color: blue;
+}
+
+#image{
+    margin-left: 200px;
+}
+
+.secondheader{
+   text-align: center; 
+}
+
+.secondheader h1{
+    text-transform: uppercase;
+}
+
+#bar{
+    text-align: left;
+}
+
+footer{
+    position: relative;
+}
