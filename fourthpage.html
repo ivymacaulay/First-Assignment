@@ -4,42 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fourth page</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body class="main">
     <header>
-        <h1>You made it to the fourth page!</h1>
-        <h3>This page contains HTML form</h3>
+        <h1>Welcome to the fourth page!</h1>
+        <h3>This page contains the semantic HTML tags, and comments.</h3>
+
+        <!--This is the navigation section-->
+        <nav id="bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <!--This is the main section-->
     <main>
-        <p>Please fill out the form below to sign up</p>
-        <form>
-            <label for="Nname">Name:</label>
-            <input type="text" name="name" id="name" placeholder="full name here..." required><br><br>
-
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="email here..." required><br><br>
-
-            <label for="username">Username:</label>
-            <input type="username" name="username" id="username" placeholder="username here..." required><br><br>
-
-            <label for="password">Password:</label>
-            <input type="password" name="passwrod" id="password" placeholder="password here..." required><br><br>
-
-            <label for="dob">Date of birth:</label>
-            <input type="date" name="dob" id="dob" required><br><br>
-
-            <label for="gender">Gender:</label><br>
-            <input type="radio" name="male" id="male" required>
-            <label for="male">Male</label><br>
-
-            <input type="radio" name="female" id="female" required>
-            <label for="female">Female</label><br><br>
-
-            <a href="fifth.html"><input type="submit" value="Submit"></a><br><br>
-        </form>
+        <p>Here's the main section!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam mollitia, expedita labore quia est cumque nisi, laudantium fuga iusto quam aspernatur maxime libero soluta velit ipsa ut dolores. Hic, corrupti.</p>
+        <p><a href="fifthpage.html">Click here to go to the next page</a></p>
     </main>
-
-    <footer>&copy;First Assignment 2025</footer>
+    <!--This is the footer-->
+    <footer id="foot">&copy;First Assignment 2025</footer>
 </body>
 </html>

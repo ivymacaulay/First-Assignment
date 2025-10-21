@@ -3,38 +3,58 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header{
+header{
     text-align: center;
     line-height: 25px;
+    text-transform: uppercase;
 }
 
-.header h1{
-    text-transform: uppercase;
+.head{
+    background-image: url(theendpage.jpeg);
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a{
     color: blue;
 }
 
-#image{
-    margin-left: 200px;
-}
-
-.secondheader{
-   text-align: center; 
-}
-
-.secondheader h1{
-    text-transform: uppercase;
+input{
+    border-radius: 5px;
 }
 
 #bar{
     text-align: left;
+    text-transform: capitalize;
 }
 
 footer{
-    position: relative;
+    color: wheat;
+}
+
+.main{
+    background-image: url(welcome.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#foot{
+    color: black;
+}
+
+.image{
+    background-image: url(newpage.png);
+}
+
+.all{
+    background-image: url(newpage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(114, 219, 65);
 }
